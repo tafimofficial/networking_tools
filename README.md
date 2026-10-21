@@ -46,23 +46,3 @@ An enterprise-grade, high-performance Android application built with a **Pure C 
 
 ---
 
-## 🚀 How to Run & Build
-
-### 1. Instant Live Preview (Browser / Mobile Wi-Fi)
-```bash
-npm start
-```
-Open `http://localhost:3000` in any web browser or open `http://<YOUR_PC_IP>:3000` on your Android phone connected to the same Wi-Fi.
-
-### 2. Android Studio & APK Build (Android 10+)
-1. Open **Android Studio** (Hedgehog, Iguana, Koala or newer).
-2. Choose **Open an Existing Project** and select the folder:
-   `c:\Users\T\Downloads\networking\android_ndk_app`
-3. Ensure Android NDK (version 25+ or 26+) and CMake (3.22.1+) are installed via SDK Manager.
-4. Click **Build -> Build Bundle(s) / APK(s) -> Build APK(s)**.
-5. The compiled APK will be generated at:
-   `app/build/outputs/apk/debug/app-debug.apk`
-6. Install on any Android 10+ phone, tablet, or emulator:
-   ```bash
-   adb install app-debug.apk
-   ```
